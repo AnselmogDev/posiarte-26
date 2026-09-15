@@ -1,0 +1,48 @@
+# Evolução da Inteligência Artificial
+
+Site interativo feito para feira de ciências, mostrando a evolução da IA em cinco eras — dos sistemas baseados em regras (1950) até projeções para 2050 — com uma linha do tempo navegável e um quiz de conhecimento ao final.
+
+
+Abra o arquivo `index.html` no navegador (não precisa de servidor nem internet).
+
+## Funcionalidades
+
+- **Linha do tempo interativa** com 5 eras da IA:
+  1. Sistemas baseados em regras (1950–1980)
+  2. Machine Learning (1990–2010)
+  3. Deep Learning e redes neurais (2010s)
+  4. IA Generativa (2020s)
+  5. Projeções para 2050
+- Navegação por clique nos marcadores ou pelas setas do teclado (← →)
+- **Quiz de 12 perguntas** sobre o conteúdo, com:
+  - Perguntas embaralhadas a cada tentativa (sem repetição na mesma rodada)
+  - Alternativas também embaralhadas
+  - Feedback visual imediato (certo/errado)
+  - Pontuação final e opção de refazer
+
+## Estrutura dos arquivos
+
+```
+├── index.html    # Estrutura da página (timeline + quiz)
+├── style.css     # Estilo da linha do tempo
+├── script.js     # Lógica da linha do tempo (conteúdo das eras, navegação)
+├── quiz.css      # Estilo do quiz
+└── quiz.js       # Lógica do quiz (perguntas, embaralhamento, pontuação)
+```
+
+Todos os arquivos precisam estar na mesma pasta — o `index.html` carrega os outros quatro via `<link>` e `<script>`.
+
+## Como rodar
+
+Não há dependências nem build. Basta:
+
+1. Clonar o repositório
+2. Abrir `index.html` diretamente no navegador
+
+## Tecnologias
+
+HTML, CSS e JavaScript puro (sem frameworks ou bibliotecas externas).
+
+## Contexto
+
+Projeto criado para apresentação de feira de ciências sobre o tema "Evolução da Inteligência Artificial".
